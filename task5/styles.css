@@ -1,0 +1,41 @@
+.list-group {
+  background-color: white;
+  list-style: none;
+  width: 450px;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 5px;
+}
+
+.list-group-item {
+  font-weight: 400;
+  padding: 12px 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.list-group-item a {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.list-group li:hover {
+  background-color: #0d6efd;
+  color: aliceblue;
+  border-color: #0d6efd;
+}
+
+.list-group:hover li:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.list-group:hover li:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.list-group li:hover a {
+  color: white;
+}

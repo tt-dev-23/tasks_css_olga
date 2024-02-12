@@ -1,0 +1,27 @@
+h1 {
+  color: #191970;
+}
+
+em {
+  color: #483D8B;
+}
+
+li {
+  font-weight: bold;
+}
+
+li em {
+  font-size: 13px;
+}
+
+a {
+  color: #191970;
+}
+
+a:hover {
+  color: #8B0000;
+}
+
+a:visited {
+  color: #708090;
+}
