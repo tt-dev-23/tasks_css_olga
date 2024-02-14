@@ -1,0 +1,9 @@
+.text1 h1 {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text2 h1 {
+  font: normal 18px 'Roboto', sans-serif;
+}
